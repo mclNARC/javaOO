@@ -21,13 +21,19 @@ public class Biblioteca {
        l[4].setDisponivel(true);
        
        
+       Aluno aln[] = new Aluno[2000] ;
+       aln[0] = new Aluno ("Maria da silva ",552466,22);
        
        
+       Aluguel alg[] = new Aluguel[100000];
+       alg[0] = new Aluguel (aln[0], l[2]);
        
        
-       
-       System.out.println(l[0].toString());
-       System.out.println(l[1].toString());
+        System.out.println(alg[0].toString());
+        //System.out.println(aln[0].toString());
+        //System.out.println(alg[0].toString());
+       //System.out.println(l[0].toString());
+       //System.out.println(l[1].toString());
        
        
        
