@@ -20,6 +20,8 @@ public class Biblioteca {
        l[4]= new Livros ("O alquimista","Paulo coelho",23,1988,"Conto");
        l[4].setDisponivel(true);
        
+       l[5] = new Livros ("Turma da mônica","Mauricio S.",50,2007,"revista em quadrinhos");
+       l[4].ExemplaresReservados(15);
        
        Aluno aln[] = new Aluno[2000] ;
        aln[0] = new Aluno ("Maria da silva ",552466,22);
